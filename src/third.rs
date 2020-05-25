@@ -173,6 +173,7 @@ mod tests {
         assert_eq!(x, expected);
     }
 
+    #[test]
     fn sort_students_by_name_ascending() {
         let taro = Student::new("Taro", "Yamada", 16);
         let hanako = Student::new("Hanako", "Yamada", 14);
